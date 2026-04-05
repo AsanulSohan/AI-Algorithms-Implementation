@@ -5,7 +5,7 @@ def depth_first_search(graph, start, goal):
 	traversal_order = []         # Track nodes in visited order
 	parent = {start: None}       # Store parent for path reconstruction
 
-	while stack:
+	while stack:                   # Main Loop (DFS Core)
 		node = stack.pop()         # Remove last node (LIFO)
 		if node not in visited:	   # Check if node has not been visited
 			visited.add(node)

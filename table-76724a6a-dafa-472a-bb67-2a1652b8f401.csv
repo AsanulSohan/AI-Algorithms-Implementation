@@ -1,0 +1,9 @@
+﻿Keyword,Explanation,Syntax / Example
+False,Boolean constant representing logical false,x = False
+None,Represents absence of value / null,x = None
+True,Boolean constant representing logical true,x = True
+and,Logical AND (short-circuit),if a > 0 and b < 10:
+or,Logical OR (short-circuit),if a == 1 or b == 2:
+not,Logical NOT (negation),if not condition:
+is,Identity comparison (same object in memory),if x is None:
+in,Membership test or iteration target,"if ""a"" in text:" / for i in range(5):
