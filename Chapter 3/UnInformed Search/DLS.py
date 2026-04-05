@@ -9,7 +9,6 @@ def depth_limited_search(graph, start, goal, limit):
 
 	def dfs_limited(node, depth, path_visited):  # Recursive helper for depth-limited DFS
 		nonlocal goal_found
-
 		# Stop recursion early once goal is found
 		if goal_found:
 			return
