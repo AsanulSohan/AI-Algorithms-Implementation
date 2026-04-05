@@ -6,7 +6,7 @@ def bidirectional_search(graph, start, goal):
 	if start not in graph or goal not in graph:
 		return []
 	if start == goal:
-		return [start]
+		return [start] #same node → direct answer
 	# for checking if start and goal are the same,
 
 	# BFS data from start side
